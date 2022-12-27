@@ -1,0 +1,63 @@
+.userProfileCard {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.detailsCard {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.countsCard {
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.countsCardComponent {
+  margin: 0px 10px 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bgGreen {
+  background-color: rgb(28, 196, 19);
+}
+
+.bgBlue {
+  background-color: rgb(231, 26, 156);
+}
+
+.bgViolet {
+  background-color: rgb(19, 163, 159);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.detailsRow>* {
+  margin-bottom: 20px;
+}

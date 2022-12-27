@@ -1,0 +1,12 @@
+form {
+    margin-top: 2em;
+    text-align: center;
+}
+
+form p {
+    margin: 10px;
+    max-width: 600px;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2em;
+}
