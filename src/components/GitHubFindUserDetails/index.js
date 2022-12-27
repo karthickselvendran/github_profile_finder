@@ -22,7 +22,7 @@ const GitHubFindUserDetails = ({
     }
     setUserDetailsLoading(true);
     try {
-      const { data = {} } = await axios.get(`${githubAPILink}/${userName}`);
+      const { data = {} } = await axios.get(`${githubAPILink}/${userName?.trim()}`);
       setUserDetails(data);
       setUserName("");
       toast.success("Users data fetched!");
