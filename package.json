@@ -2,7 +2,7 @@
   "name": "github_profile_finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://username.github.io/github_profile_finder",
+  "homepage": "https://karthickselvendran.github.io/github_profile_finder",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
