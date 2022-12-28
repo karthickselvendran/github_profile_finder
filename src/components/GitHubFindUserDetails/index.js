@@ -41,8 +41,8 @@ const GitHubFindUserDetails = ({
   return (
     <form>
       <p>
-        Welcome to our platform. Just type GiHub username in below input box and
-        click Search button. Then you will get user details below...
+        Welcome to our platform. Just type GitHub username in below input box and
+        click search button, then you will get user details below...
       </p>
       <Input
         placeholder="Enter github username..."
